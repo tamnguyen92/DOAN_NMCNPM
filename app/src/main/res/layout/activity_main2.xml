@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/middlesurface"
+    tools:context=".Main2Activity">
+    <FrameLayout
+
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.king.jerem.animation_2.GamePanel
+            android:id="@+id/panel"
+
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            />
+        <LinearLayout
+            android:gravity="top|left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_margin="5dp"
+                android:src="@drawable/goldpng"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <TextView
+                android:layout_margin="5dp"
+                android:gravity="center_vertical"
+                android:id="@+id/txtgold"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"/>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter" />
+        <TextView
+
+            android:background="#48F50057"
+            android:id="@+id/txtdoanvan"
+            android:layout_marginTop="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#ffff"
+            android:textAlignment="center"
+            android:layout_gravity="center|top"
+            android:textSize="25dp"
+            android:text="QQQ THUU wUAuyt yueqqq"/>
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/imgdichden"
+            android:src="@drawable/dich"
+            android:layout_gravity="bottom|right"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="60dp"/>
+
+    </FrameLayout>
+    <LinearLayout
+        android:background="@drawable/nenden"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.akexorcist.roundcornerprogressbar.IconRoundCornerProgressBar
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="30dp"
+            app:rcProgress="50"
+            android:id="@+id/progress_1"
+            app:rcMax="100"
+            app:rcRadius="5dp"
+            app:rcBackgroundPadding="5dp"
+            app:rcReverse="true"
+            app:rcProgressColor="#FF9800"
+            app:rcSecondaryProgressColor="#FFCC80"
+            app:rcBackgroundColor="#BDBDBD"
+            app:rcIconSrc="@drawable/run_000"
+
+            app:rcIconWidth="30dp"
+            app:rcIconHeight="30dp"
+            app:rcIconPadding="2dp"
+            app:rcIconPaddingLeft="2dp"
+            app:rcIconPaddingRight="2dp"
+            app:rcIconPaddingTop="2dp"
+            app:rcIconPaddingBottom="2dp"
+            app:rcIconBackgroundColor="#80FFF59D" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.akexorcist.roundcornerprogressbar.IconRoundCornerProgressBar
+                android:layout_width="320dp"
+
+                android:layout_height="10dp"
+                app:rcProgress="50"
+                android:id="@+id/progress_2"
+                app:rcMax="100"
+                app:rcRadius="5dp"
+
+                app:rcReverse="false"
+                app:rcProgressColor="#03A9F4"
+                app:rcSecondaryProgressColor="#FFCC80"
+                app:rcBackgroundColor="#BDBDBD"
+                app:rcIconSrc="@drawable/run_000"
+
+                app:rcIconWidth="30dp"
+                app:rcIconHeight="30dp"
+
+                app:rcIconBackgroundColor="#80FFF59D" />
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#7B1FA2"
+                android:layout_marginLeft="5dp"
+                android:textSize="13dp"
+                android:text="Home"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#EEEEEE"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="15dp"
+                android:text="0km      20km      40km      60km      80km      100km" />
+            <include layout="@layout/custom_layout_keybroad"
+                />
+
+
+            <TextView
+
+
+                android:id="@+id/txtvanban"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#ff9"
+                android:textAlignment="center"
+                android:layout_gravity="center|top"
+                android:textSize="25dp"
+                android:text="QQQ THUU wUAuyt yueqqq"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

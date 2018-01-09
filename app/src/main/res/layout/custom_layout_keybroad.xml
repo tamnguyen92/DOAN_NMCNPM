@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="2dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <FrameLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnQ"
+            android:layout_width="35dp"
+            android:background="@drawable/custom_button"
+            android:layout_height="35dp"
+            android:textAlignment="center"
+            android:text="Q"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_gravity="center"/>
+
+    </FrameLayout>
+        <FrameLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:textAlignment="center"
+                android:text="W"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/btnW"
+                android:layout_width="35dp"
+                android:background="@drawable/custom_button2"
+                android:layout_height="35dp" />
+
+        </FrameLayout>
+        <FrameLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:textAlignment="center"
+                android:text="E"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/btnE"
+                android:layout_width="35dp"
+                android:background="@drawable/custom_button3"
+                android:layout_height="35dp" />
+
+        </FrameLayout>
+        <FrameLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:textAlignment="center"
+                android:text="R"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/btnR"
+                android:layout_width="35dp"
+                android:background="@drawable/custom_button4"
+                android:layout_height="35dp" />
+        </FrameLayout>
+        <FrameLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:textAlignment="center"
+                android:text="T"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/btnT"
+                android:layout_width="35dp"
+                android:background="@drawable/custom_button5"
+                android:layout_height="35dp" />
+
+        </FrameLayout>
+        <FrameLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:textAlignment="center"
+                android:text="Y"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/btnY"
+                android:layout_width="35dp"
+                android:background="@drawable/custom_button"
+                android:layout_height="35dp" />
+        </FrameLayout>
+        <FrameLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:textAlignment="center"
+                android:text="U"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/btnU"
+                android:layout_width="35dp"
+                android:background="@drawable/custom_button2"
+                android:layout_height="35dp" />
+
+        </FrameLayout>
+        <FrameLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:textAlignment="center"
+                android:text="I"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/btnI"
+                android:layout_width="35dp"
+                android:background="@drawable/custom_button3"
+                android:layout_height="35dp" />
+
+        </FrameLayout>
+        <FrameLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:textAlignment="center"
+                android:text="O"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/btnO"
+                android:layout_width="35dp"
+                android:background="@drawable/custom_button4"
+                android:layout_height="35dp" />
+        </FrameLayout>
+        <FrameLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:textAlignment="center"
+                android:text="P"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/btnP"
+                android:layout_width="35dp"
+                android:background="@drawable/custom_button5"
+                android:layout_height="35dp" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+    <FrameLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnA"
+            android:layout_width="35dp"
+            android:background="@drawable/custom_button"
+            android:layout_height="35dp"
+            android:textAlignment="center"
+            android:text="A"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_gravity="center"/>
+
+    </FrameLayout>
+    <FrameLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnS"
+            android:layout_width="35dp"
+            android:background="@drawable/custom_button2"
+            android:layout_height="35dp"
+            android:textAlignment="center"
+            android:text="S"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_gravity="center"/>
+
+    </FrameLayout>
+    <FrameLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:textAlignment="center"
+            android:text="D"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:id="@+id/btnD"
+            android:layout_width="35dp"
+            android:background="@drawable/custom_button3"
+            android:layout_height="35dp" />
+    </FrameLayout>
+    <FrameLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:textAlignment="center"
+            android:text="F"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:id="@+id/btnF"
+            android:layout_width="35dp"
+            android:background="@drawable/custom_button4"
+            android:layout_height="35dp" />
+
+    </FrameLayout>
+    <FrameLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:textAlignment="center"
+            android:text="G"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:id="@+id/btnG"
+            android:layout_width="35dp"
+            android:background="@drawable/custom_button5"
+            android:layout_height="35dp" />
+
+    </FrameLayout>
+    <FrameLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:textAlignment="center"
+            android:text="H"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:id="@+id/btnH"
+            android:layout_width="35dp"
+            android:background="@drawable/custom_button"
+            android:layout_height="35dp" />
+
+    </FrameLayout>
+    <FrameLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:textAlignment="center"
+            android:text="J"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:id="@+id/btnJ"
+            android:layout_width="35dp"
+            android:background="@drawable/custom_button2"
+            android:layout_height="35dp" />
+
+    </FrameLayout>
+    <FrameLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:textAlignment="center"
+            android:text="K"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:id="@+id/btnK"
+            android:layout_width="35dp"
+            android:background="@drawable/custom_button3"
+            android:layout_height="35dp" />
+
+    </FrameLayout>
+    <FrameLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:textAlignment="center"
+            android:text="L"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:id="@+id/btnL"
+            android:layout_width="35dp"
+            android:background="@drawable/custom_button4"
+            android:layout_height="35dp" />
+
+    </FrameLayout>
+    <FrameLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:textAlignment="center"
+            android:text="Z"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:id="@+id/btnZ"
+            android:layout_width="35dp"
+            android:background="@drawable/custom_button5"
+            android:layout_height="35dp" />
+
+    </FrameLayout>
+</LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <FrameLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnX"
+                android:layout_width="35dp"
+                android:background="@drawable/custom_button"
+                android:layout_height="35dp"
+                android:textAlignment="center"
+                android:text="X"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_gravity="center"/>
+
+        </FrameLayout>
+        <FrameLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:textAlignment="center"
+                android:text="C"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/btnC"
+                android:layout_width="35dp"
+                android:background="@drawable/custom_button2"
+                android:layout_height="35dp" />
+
+        </FrameLayout>
+        <FrameLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:textAlignment="center"
+                android:text="V"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/btnV"
+                android:layout_width="35dp"
+                android:background="@drawable/custom_button3"
+                android:layout_height="35dp" />
+
+        </FrameLayout>
+        <FrameLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:textAlignment="center"
+                android:text="Space"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/btnSpace"
+                android:layout_width="140dp"
+                android:background="@drawable/custom_button4"
+                android:layout_height="35dp" />
+
+        </FrameLayout>
+        <FrameLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:textAlignment="center"
+                android:text="B"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/btnB"
+                android:layout_width="35dp"
+                android:background="@drawable/custom_button5"
+                android:layout_height="35dp" />
+
+        </FrameLayout>
+        <FrameLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:textAlignment="center"
+                android:text="N"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/btnN"
+                android:layout_width="35dp"
+                 android:background="@drawable/custom_button"
+                android:layout_height="35dp" />
+
+        </FrameLayout>
+        <FrameLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:textAlignment="center"
+                android:text="M"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:id="@+id/btnM"
+                android:layout_width="35dp"
+                android:background="@drawable/custom_button2"
+                android:layout_height="35dp" />
+
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>
